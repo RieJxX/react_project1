@@ -1,0 +1,26 @@
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Цвет фона с прозрачностью */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Установите значение z-index, чтобы элемент был выше всех остальных */
+}
+
+.errorBanner {
+    width: 400px; /* Ширина баннера */
+    height: 150px; /* Высота баннера */
+    display: flex;
+    justify-content: center; /* Центрирование по горизонтали */
+    align-items: center; /* Центрирование по вертикали */
+    background-color: white;
+    border: 2px solid teal; /* Обводка */
+    border-radius: 10px; /* Радиус скругления углов */
+    padding: 20px; /* Внутренний отступ */
+    font-size: 18px; /* Размер шрифта */
+    text-align: center; /* Выравнивание текста по центру */
+}
